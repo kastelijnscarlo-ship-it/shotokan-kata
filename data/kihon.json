@@ -1,0 +1,73 @@
+{
+  "_info": "Kihon glossary. Each technique: romaji name, short translation and one-line explanation in nl and en. 'image' is reserved for a later version (path relative to the site root, e.g. 'img/kihon/zenkutsu-dachi.webp').",
+  "groups": [
+    {
+      "id": "dachi",
+      "name": "Dachi",
+      "title": { "nl": "Standen", "en": "Stances" },
+      "items": [
+        { "id": "heisoku-dachi", "name": "heisoku-dachi", "translation": { "nl": "gesloten stand", "en": "closed-feet stance" }, "explanation": { "nl": "Voeten tegen elkaar, hielen en tenen raken elkaar.", "en": "Feet together, heels and toes touching." }, "image": null },
+        { "id": "musubi-dachi", "name": "musubi-dachi", "translation": { "nl": "V-stand (groetstand)", "en": "V stance (bowing stance)" }, "explanation": { "nl": "Hielen tegen elkaar, tenen schuin naar buiten; de stand bij het groeten.", "en": "Heels together, toes turned out; the stance used for bowing." }, "image": null },
+        { "id": "hachiji-dachi", "name": "hachiji-dachi", "translation": { "nl": "natuurlijke stand", "en": "natural stance" }, "explanation": { "nl": "Voeten op heupbreedte, tenen licht naar buiten; de gereedstand (yoi).", "en": "Feet hip-width apart, toes slightly out; the ready stance (yoi)." }, "image": null },
+        { "id": "zenkutsu-dachi", "name": "zenkutsu-dachi", "translation": { "nl": "voorwaartse stand", "en": "front stance" }, "explanation": { "nl": "Lange, lage stand met de voorste knie gebogen en het achterste been gestrekt.", "en": "Long, low stance with the front knee bent and the back leg straight." }, "image": null },
+        { "id": "kokutsu-dachi", "name": "kokutsu-dachi", "translation": { "nl": "achterwaartse stand", "en": "back stance" }, "explanation": { "nl": "Het meeste gewicht op het achterste, gebogen been; de voorste voet wijst naar voren.", "en": "Most weight on the bent back leg; the front foot points forward." }, "image": null },
+        { "id": "kiba-dachi", "name": "kiba-dachi", "translation": { "nl": "paardrijstand", "en": "horse-riding stance" }, "explanation": { "nl": "Brede stand, voeten evenwijdig, knieën naar buiten gedrukt; gewicht in het midden.", "en": "Wide stance, feet parallel, knees pressed outward; weight centred." }, "image": null },
+        { "id": "fudo-dachi", "name": "fudo-dachi", "translation": { "nl": "onbeweeglijke stand", "en": "rooted stance" }, "explanation": { "nl": "Tussen zenkutsu-dachi en kiba-dachi in, beide knieën gebogen; heel stabiel.", "en": "Between front stance and horse stance, both knees bent; very stable." }, "image": null },
+        { "id": "neko-ashi-dachi", "name": "neko-ashi-dachi", "translation": { "nl": "kattenpootstand", "en": "cat stance" }, "explanation": { "nl": "Bijna al het gewicht op het achterste been; de voorste voet raakt licht de grond.", "en": "Almost all weight on the back leg; the front foot touches the floor lightly." }, "image": null },
+        { "id": "kosa-dachi", "name": "kosa-dachi", "translation": { "nl": "gekruiste stand", "en": "crossed-legs stance" }, "explanation": { "nl": "Benen gekruist, de achterste voet op de bal van de voet achter de voorste.", "en": "Legs crossed, the back foot on its ball behind the front foot." }, "image": null },
+        { "id": "hangetsu-dachi", "name": "hangetsu-dachi", "translation": { "nl": "halvemaanstand", "en": "half-moon stance" }, "explanation": { "nl": "Korte stand met de knieën naar binnen gespannen; komt voor in de kata Hangetsu.", "en": "Short stance with the knees tensed inward; used in the kata Hangetsu." }, "image": null },
+        { "id": "shiko-dachi", "name": "shiko-dachi", "translation": { "nl": "sumostand", "en": "square stance" }, "explanation": { "nl": "Zoals kiba-dachi, maar met de tenen schuin naar buiten.", "en": "Like horse stance, but with the toes turned out." }, "image": null }
+      ]
+    },
+    {
+      "id": "tsuki-uchi",
+      "name": "Tsuki / uchi",
+      "title": { "nl": "Stoten en slagen", "en": "Punches and strikes" },
+      "items": [
+        { "id": "choku-zuki", "name": "choku-zuki", "translation": { "nl": "rechte stoot", "en": "straight punch" }, "explanation": { "nl": "Stoot recht vooruit vanuit een stilstaande stand.", "en": "Straight punch from a standing position." }, "image": null },
+        { "id": "oi-zuki", "name": "oi-zuki", "translation": { "nl": "stapstoot", "en": "lunge punch" }, "explanation": { "nl": "Stoot met de hand aan dezelfde kant als het voorste been, terwijl je naar voren stapt.", "en": "Punch with the same-side hand as the front leg while stepping forward." }, "image": null },
+        { "id": "gyaku-zuki", "name": "gyaku-zuki", "translation": { "nl": "tegengestelde stoot", "en": "reverse punch" }, "explanation": { "nl": "Stoot met de hand aan de kant van het achterste been, met heupdraai.", "en": "Punch with the hand on the back-leg side, driven by the hips." }, "image": null },
+        { "id": "kizami-zuki", "name": "kizami-zuki", "translation": { "nl": "voorste-handstoot", "en": "jab" }, "explanation": { "nl": "Snelle stoot met de voorste hand.", "en": "Quick punch with the front hand." }, "image": null },
+        { "id": "sanbon-zuki", "name": "sanbon-zuki", "translation": { "nl": "drievoudige stoot", "en": "triple punch" }, "explanation": { "nl": "Drie stoten achter elkaar: jodan, chudan, chudan.", "en": "Three punches in a row: high, middle, middle." }, "image": null },
+        { "id": "age-zuki", "name": "age-zuki", "translation": { "nl": "opwaartse stoot", "en": "rising punch" }, "explanation": { "nl": "Stoot die schuin omhoog gaat, naar de kin.", "en": "Punch that travels upward at an angle, towards the chin." }, "image": null },
+        { "id": "uraken-uchi", "name": "uraken-uchi", "translation": { "nl": "slag met de rug van de vuist", "en": "back-fist strike" }, "explanation": { "nl": "Snappende slag met de knokkels van de rug van de vuist.", "en": "Snapping strike with the knuckles on the back of the fist." }, "image": null },
+        { "id": "shuto-uchi", "name": "shuto-uchi", "translation": { "nl": "meskanthandslag", "en": "knife-hand strike" }, "explanation": { "nl": "Slag met de buitenkant van de open hand.", "en": "Strike with the outer edge of the open hand." }, "image": null },
+        { "id": "tettsui-uchi", "name": "tettsui-uchi", "translation": { "nl": "hamervuistslag", "en": "hammer-fist strike" }, "explanation": { "nl": "Slag met de onderkant van de gebalde vuist, als een hamer.", "en": "Strike with the bottom of the closed fist, like a hammer." }, "image": null },
+        { "id": "empi-uchi", "name": "empi-uchi", "translation": { "nl": "elleboogslag", "en": "elbow strike" }, "explanation": { "nl": "Slag met de elleboog, voorwaarts, zijwaarts, omhoog of achterwaarts.", "en": "Strike with the elbow, forward, sideways, upward or backward." }, "image": null },
+        { "id": "nukite", "name": "nukite", "translation": { "nl": "speerhand", "en": "spear hand" }, "explanation": { "nl": "Steek met de vingertoppen van de gestrekte hand.", "en": "Thrust with the fingertips of the straight hand." }, "image": null },
+        { "id": "teisho-uchi", "name": "teisho-uchi", "translation": { "nl": "handpalmslag", "en": "palm-heel strike" }, "explanation": { "nl": "Slag met de hiel van de handpalm.", "en": "Strike with the heel of the palm." }, "image": null },
+        { "id": "haito-uchi", "name": "haito-uchi", "translation": { "nl": "binnenkant-handslag", "en": "ridge-hand strike" }, "explanation": { "nl": "Slag met de duimkant van de open hand.", "en": "Strike with the thumb side of the open hand." }, "image": null }
+      ]
+    },
+    {
+      "id": "uke",
+      "name": "Uke",
+      "title": { "nl": "Weringen", "en": "Blocks" },
+      "items": [
+        { "id": "gedan-barai", "name": "gedan-barai", "translation": { "nl": "lage wering", "en": "low block" }, "explanation": { "nl": "Veegt een aanval op buikhoogte of lager weg met de onderarm.", "en": "Sweeps away an attack at stomach height or lower with the forearm." }, "image": null },
+        { "id": "age-uke", "name": "age-uke", "translation": { "nl": "hoge wering", "en": "rising block" }, "explanation": { "nl": "De onderarm gaat omhoog en beschermt het hoofd.", "en": "The forearm rises to protect the head." }, "image": null },
+        { "id": "soto-uke", "name": "soto-uke", "translation": { "nl": "wering van buiten naar binnen", "en": "outside block" }, "explanation": { "nl": "De onderarm draait van buiten naar het midden en weert een middenaanval af.", "en": "The forearm swings from outside to centre to stop a middle attack." }, "image": null },
+        { "id": "uchi-uke", "name": "uchi-uke", "translation": { "nl": "wering van binnen naar buiten", "en": "inside block" }, "explanation": { "nl": "De onderarm draait van het midden naar buiten en weert een middenaanval af.", "en": "The forearm swings from centre to outside to stop a middle attack." }, "image": null },
+        { "id": "shuto-uke", "name": "shuto-uke", "translation": { "nl": "meskanthandwering", "en": "knife-hand block" }, "explanation": { "nl": "Wering met de buitenkant van de open hand, meestal in kokutsu-dachi.", "en": "Block with the outer edge of the open hand, usually in back stance." }, "image": null },
+        { "id": "morote-uke", "name": "morote-uke", "translation": { "nl": "versterkte wering", "en": "augmented block" }, "explanation": { "nl": "Uchi-uke ondersteund door de andere vuist bij de elleboog.", "en": "Inside block supported by the other fist at the elbow." }, "image": null },
+        { "id": "juji-uke", "name": "juji-uke", "translation": { "nl": "kruiswering", "en": "X block" }, "explanation": { "nl": "Wering met beide polsen gekruist, hoog of laag.", "en": "Block with both wrists crossed, high or low." }, "image": null },
+        { "id": "kakiwake-uke", "name": "kakiwake-uke", "translation": { "nl": "wigwering", "en": "wedge block" }, "explanation": { "nl": "Beide armen gaan tegelijk naar buiten om een greep te breken.", "en": "Both arms push outward together to break a grab." }, "image": null }
+      ]
+    },
+    {
+      "id": "geri",
+      "name": "Geri",
+      "title": { "nl": "Trappen", "en": "Kicks" },
+      "items": [
+        { "id": "mae-geri", "name": "mae-geri", "translation": { "nl": "voorwaartse trap", "en": "front kick" }, "explanation": { "nl": "Trap recht naar voren met de bal van de voet.", "en": "Kick straight forward with the ball of the foot." }, "image": null },
+        { "id": "yoko-geri-keage", "name": "yoko-geri-keage", "translation": { "nl": "zijwaartse snaptrap", "en": "side snap kick" }, "explanation": { "nl": "Zijwaartse trap die omhoog snapt met de zijkant van de voet.", "en": "Sideways kick that snaps upward with the edge of the foot." }, "image": null },
+        { "id": "yoko-geri-kekomi", "name": "yoko-geri-kekomi", "translation": { "nl": "zijwaartse stoottrap", "en": "side thrust kick" }, "explanation": { "nl": "Zijwaartse trap die recht uitstoot met de zijkant van de voet.", "en": "Sideways kick that thrusts straight out with the edge of the foot." }, "image": null },
+        { "id": "mawashi-geri", "name": "mawashi-geri", "translation": { "nl": "cirkeltrap", "en": "roundhouse kick" }, "explanation": { "nl": "Trap die in een boog van opzij komt, met de bal of de wreef van de voet.", "en": "Kick that arcs in from the side, with the ball or instep of the foot." }, "image": null },
+        { "id": "ushiro-geri", "name": "ushiro-geri", "translation": { "nl": "achterwaartse trap", "en": "back kick" }, "explanation": { "nl": "Trap recht naar achteren met de hiel.", "en": "Kick straight backward with the heel." }, "image": null },
+        { "id": "mikazuki-geri", "name": "mikazuki-geri", "translation": { "nl": "halvemaantrap", "en": "crescent kick" }, "explanation": { "nl": "Trap in een halvemaanboog met de voetzool, vaak tegen de eigen hand.", "en": "Crescent-shaped kick with the sole, often into your own hand." }, "image": null },
+        { "id": "fumikomi", "name": "fumikomi", "translation": { "nl": "stamptrap", "en": "stamping kick" }, "explanation": { "nl": "Krachtige stamp omlaag met de hiel of de zijkant van de voet.", "en": "Powerful downward stamp with the heel or edge of the foot." }, "image": null },
+        { "id": "hiza-geri", "name": "hiza-geri", "translation": { "nl": "knietrap", "en": "knee strike" }, "explanation": { "nl": "Stoot omhoog of naar voren met de knie.", "en": "Upward or forward strike with the knee." }, "image": null }
+      ]
+    }
+  ]
+}
