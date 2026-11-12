@@ -36,7 +36,19 @@ All content lives in the `data` folder. You can edit it directly on GitHub: open
 
 ### `data/kihon.json`
 
-Grouped into stances, punches and strikes, blocks and kicks. Each technique has `name` (romaji), `translation` and `explanation` (`nl` / `en`). Each technique also has `image`, which is reserved for later. Put a picture in the repo (e.g. `img/kihon/mae-geri.webp`) and set `"image": "img/kihon/mae-geri.webp"`, and it will be shown.
+Grouped into stances, punches and strikes, blocks and kicks. Each technique has `name` (romaji), `translation` and `explanation` (`nl` / `en`).
+
+### Kihon images
+
+Put a `.jpg` per technique in `img/kihon/`, named after the technique, for example `img/kihon/mae-geri.jpg`. The app picks it up automatically. Until a picture is there, a grey placeholder with the name is shown. [`img/kihon/README.md`](img/kihon/README.md) lists all 40 file names.
+
+To upload them on GitHub: open the `img/kihon` folder in your repo, click **Add file → Upload files**, drag the pictures in and click **Commit changes**.
+
+Using another format or file name? Set `"image": "img/kihon/mae-geri.png"` for that technique in `data/kihon.json`.
+
+## Look and feel
+
+The styling follows the Pastoe layout: warm off-white `#F1F0EA`, black text, taupe lines `#BBB6AB`, grey image cards `#DAD7D0`, and uppercase headings with wide letter-spacing. A dark version is used automatically when the phone is in dark mode. All colours are at the top of `css/style.css`. Pastoe's own font (Brown) is licensed and not included, so the app uses Helvetica Neue / Arial.
 
 ### Tips
 

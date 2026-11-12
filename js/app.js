@@ -10,7 +10,7 @@
       kata: 'Kata', kihon: 'Kihon',
       kataSub: 'Alle 26 Shotokan-kata, op bandvolgorde, met video.',
       kihonSub: 'Standen, stoten, slagen, weringen en trappen.',
-      items: 'onderdelen',
+      items: 'onderdelen', open: 'Openen',
       search: 'Zoeken…', noResults: 'Niets gevonden.',
       meaning: 'Betekenis', exam: 'KBN-danexamen', kyu: 'Kyu-graad',
       kyuTodo: 'Nog niet ingevuld. De kyu-examens regelt je eigen club: vraag je leraar bij welke band deze kata hoort.',
@@ -33,7 +33,7 @@
       kata: 'Kata', kihon: 'Kihon',
       kataSub: 'All 26 Shotokan kata, in belt order, with video.',
       kihonSub: 'Stances, punches, strikes, blocks and kicks.',
-      items: 'items',
+      items: 'items', open: 'Open',
       search: 'Search…', noResults: 'Nothing found.',
       meaning: 'Meaning', exam: 'KBN dan exam', kyu: 'Kyu grade',
       kyuTodo: 'Not filled in yet. Kyu exams are set by your own club: ask your instructor which belt this kata belongs to.',
@@ -96,8 +96,12 @@
       '<h1 class="home-title">' + esc(t('homeTitle')) + '</h1>' +
       '<p class="home-sub">' + esc(t('homeSub')) + '</p>' +
       '<div class="choices">' +
-        '<a class="choice kata" href="#/kata"><h2>' + esc(t('kata')) + '</h2><p>' + esc(t('kataSub')) + '</p><span class="count">' + data.kata.kata.length + ' kata</span></a>' +
-        '<a class="choice kihon" href="#/kihon"><h2>' + esc(t('kihon')) + '</h2><p>' + esc(t('kihonSub')) + '</p><span class="count">' + countKihon() + ' ' + esc(t('items')) + '</span></a>' +
+        '<a class="choice" href="#/kata"><div class="ph"><span class="ph-glyph" lang="ja">型</span></div>' +
+          '<h2>' + esc(t('kata')) + '</h2><p>' + esc(t('kataSub')) + ' <span class="count">· ' + data.kata.kata.length + ' kata</span></p>' +
+          '<span class="go">' + esc(t('open')) + ' <span class="ar">&rarr;</span></span></a>' +
+        '<a class="choice" href="#/kihon"><div class="ph"><span class="ph-glyph" lang="ja">基本</span></div>' +
+          '<h2>' + esc(t('kihon')) + '</h2><p>' + esc(t('kihonSub')) + ' <span class="count">· ' + countKihon() + ' ' + esc(t('items')) + '</span></p>' +
+          '<span class="go">' + esc(t('open')) + ' <span class="ar">&rarr;</span></span></a>' +
       '</div>' +
       '<p class="footer-note">' + esc(t('privacy')) + '</p>' +
     '</div>';
@@ -174,18 +178,33 @@
     '</div>';
   }
 
+  /* Kihon image: uses "image" from kihon.json if set, otherwise img/kihon/<id>.jpg.
+     If the file isn't there (yet), a neutral placeholder with the name is shown. */
+  function kihonImage(it, big) {
+    var src = it.image || ('img/kihon/' + it.id + '.jpg');
+    return '<div class="ph' + (big ? ' big' : '') + '">' +
+      '<span class="ph-name">' + esc(it.name) + '</span>' +
+      '<img src="' + esc(src) + '" alt="' + esc(it.name) + '"' + (big ? '' : ' loading="lazy"') + ' data-kihon-img>' +
+    '</div>';
+  }
+  document.addEventListener('load', function (e) {
+    if (e.target.hasAttribute && e.target.hasAttribute('data-kihon-img')) e.target.parentNode.classList.add('has-img');
+  }, true);
+  document.addEventListener('error', function (e) {
+    if (e.target.hasAttribute && e.target.hasAttribute('data-kihon-img')) e.target.remove();
+  }, true);
+
   function kihonRows(q) {
     var html = '';
     data.kihon.groups.forEach(function (g) {
       var rows = '';
       g.items.forEach(function (it) {
         if (q && norm(it.name + ' ' + L(it.translation) + ' ' + g.name + ' ' + L(g.title)).indexOf(q) === -1) return;
-        rows += '<li><a class="row" href="#/kihon/' + esc(it.id) + '">' +
-          '<span class="main"><span class="title">' + esc(it.name) + '</span><span class="sub">' + esc(L(it.translation)) + '</span></span>' +
-          '<span class="chev" aria-hidden="true">&rsaquo;</span></a></li>';
+        rows += '<a class="card" href="#/kihon/' + esc(it.id) + '">' + kihonImage(it, false) +
+          '<span class="meta"><span class="title">' + esc(it.name) + '</span><span class="sub">' + esc(L(it.translation)) + '</span></span></a>';
       });
       if (!rows) return;
-      html += '<h2 class="section-title">' + esc(L(g.title)) + ' · ' + esc(g.name) + '</h2><ul class="list">' + rows + '</ul>';
+      html += '<h2 class="section-title">' + esc(L(g.title)) + ' <span>' + esc(g.name) + '</span></h2><div class="grid">' + rows + '</div>';
     });
     return html || '<p class="empty">' + esc(t('noResults')) + '</p>';
   }
@@ -213,7 +232,7 @@
         '<div class="group">' + esc(L(cur.g.title)) + ' · ' + esc(cur.g.name) + '</div>' +
         '<h1 class="detail-name">' + esc(it.name) + '</h1>' +
         '<p class="translation">' + esc(L(it.translation)) + '</p>' +
-        (it.image ? '<img src="' + esc(it.image) + '" alt="' + esc(it.name) + '" style="width:100%;border-radius:10px;margin:8px 0">' : '') +
+        kihonImage(it, true) +
         '<p>' + esc(L(it.explanation)) + '</p>' +
       '</div>' +
       '<nav class="pager">' +

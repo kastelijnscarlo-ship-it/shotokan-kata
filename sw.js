@@ -1,6 +1,6 @@
 /* Service worker: keeps the app working offline (videos still need internet).
    Bump VERSION when you change code files so phones pick up the new version. */
-var VERSION = 'kata-v1';
+var VERSION = 'kata-v2';
 var SHELL = [
   './',
   'index.html',

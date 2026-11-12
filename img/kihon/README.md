@@ -1,0 +1,52 @@
+# Kihon images
+
+Put one picture per technique in this folder, named **exactly** as below (lower case, with hyphens, `.jpg`). The app shows it automatically. You don't need to change any code or JSON.
+
+Tips:
+- Format: `.jpg`, landscape 4:3 (e.g. 1200 × 900 px), under ~300 KB each so the app stays fast on a phone.
+- A plain light background fits the app best; the picture is shown on a warm grey card.
+- Using another format or name? Set it in `data/kihon.json`, e.g. `"image": "img/kihon/mae-geri.png"`.
+- Only use pictures you made yourself or are allowed to use. The site is public.
+
+| Group | File name | NL | EN |
+|---|---|---|---|
+| Stances | `heisoku-dachi.jpg` | gesloten stand | closed-feet stance |
+| Stances | `musubi-dachi.jpg` | V-stand (groetstand) | V stance (bowing stance) |
+| Stances | `hachiji-dachi.jpg` | natuurlijke stand | natural stance |
+| Stances | `zenkutsu-dachi.jpg` | voorwaartse stand | front stance |
+| Stances | `kokutsu-dachi.jpg` | achterwaartse stand | back stance |
+| Stances | `kiba-dachi.jpg` | paardrijstand | horse-riding stance |
+| Stances | `fudo-dachi.jpg` | onbeweeglijke stand | rooted stance |
+| Stances | `neko-ashi-dachi.jpg` | kattenpootstand | cat stance |
+| Stances | `kosa-dachi.jpg` | gekruiste stand | crossed-legs stance |
+| Stances | `hangetsu-dachi.jpg` | halvemaanstand | half-moon stance |
+| Stances | `shiko-dachi.jpg` | sumostand | square stance |
+| Punches and strikes | `choku-zuki.jpg` | rechte stoot | straight punch |
+| Punches and strikes | `oi-zuki.jpg` | stapstoot | lunge punch |
+| Punches and strikes | `gyaku-zuki.jpg` | tegengestelde stoot | reverse punch |
+| Punches and strikes | `kizami-zuki.jpg` | voorste-handstoot | jab |
+| Punches and strikes | `sanbon-zuki.jpg` | drievoudige stoot | triple punch |
+| Punches and strikes | `age-zuki.jpg` | opwaartse stoot | rising punch |
+| Punches and strikes | `uraken-uchi.jpg` | slag met de rug van de vuist | back-fist strike |
+| Punches and strikes | `shuto-uchi.jpg` | meskanthandslag | knife-hand strike |
+| Punches and strikes | `tettsui-uchi.jpg` | hamervuistslag | hammer-fist strike |
+| Punches and strikes | `empi-uchi.jpg` | elleboogslag | elbow strike |
+| Punches and strikes | `nukite.jpg` | speerhand | spear hand |
+| Punches and strikes | `teisho-uchi.jpg` | handpalmslag | palm-heel strike |
+| Punches and strikes | `haito-uchi.jpg` | binnenkant-handslag | ridge-hand strike |
+| Blocks | `gedan-barai.jpg` | lage wering | low block |
+| Blocks | `age-uke.jpg` | hoge wering | rising block |
+| Blocks | `soto-uke.jpg` | wering van buiten naar binnen | outside block |
+| Blocks | `uchi-uke.jpg` | wering van binnen naar buiten | inside block |
+| Blocks | `shuto-uke.jpg` | meskanthandwering | knife-hand block |
+| Blocks | `morote-uke.jpg` | versterkte wering | augmented block |
+| Blocks | `juji-uke.jpg` | kruiswering | X block |
+| Blocks | `kakiwake-uke.jpg` | wigwering | wedge block |
+| Kicks | `mae-geri.jpg` | voorwaartse trap | front kick |
+| Kicks | `yoko-geri-keage.jpg` | zijwaartse snaptrap | side snap kick |
+| Kicks | `yoko-geri-kekomi.jpg` | zijwaartse stoottrap | side thrust kick |
+| Kicks | `mawashi-geri.jpg` | cirkeltrap | roundhouse kick |
+| Kicks | `ushiro-geri.jpg` | achterwaartse trap | back kick |
+| Kicks | `mikazuki-geri.jpg` | halvemaantrap | crescent kick |
+| Kicks | `fumikomi.jpg` | stamptrap | stamping kick |
+| Kicks | `hiza-geri.jpg` | knietrap | knee strike |
