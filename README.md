@@ -40,11 +40,11 @@ Grouped into stances, punches and strikes, blocks and kicks. Each technique has 
 
 ### Kihon images
 
-Put a `.jpg` per technique in `img/kihon/`, named after the technique, for example `img/kihon/mae-geri.jpg`. The app picks it up automatically. Until a picture is there, a grey placeholder with the name is shown. [`img/kihon/README.md`](img/kihon/README.md) lists all 40 file names.
+Each of the 33 techniques has a `.png` in `img/kihon/`, named after the technique (for example `img/kihon/mae-geri.png`), and `"image"` in `data/kihon.json` points to it. A technique without a picture shows a grey placeholder with its name. See [`img/kihon/README.md`](img/kihon/README.md) for how to add or replace one.
 
 To upload them on GitHub: open the `img/kihon` folder in your repo, click **Add file → Upload files**, drag the pictures in and click **Commit changes**.
 
-Using another format or file name? Set `"image": "img/kihon/mae-geri.png"` for that technique in `data/kihon.json`.
+Using another format or file name? Set `"image"` for that technique in `data/kihon.json`, e.g. `"image": "img/kihon/mae-geri.jpg"`.
 
 ## Look and feel
 
