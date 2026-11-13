@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<title>neko-ashi-dachi</title>
+<rect width="1200" height="900" fill="#fff"/>
+<path d="M120 790 H1080" stroke="#141414" stroke-width="3"/>
+<path d="M120 790 v14 M150 790 v7 M180 790 v7 M210 790 v7 M240 790 v14 M270 790 v7 M300 790 v7 M330 790 v7 M360 790 v14 M390 790 v7 M420 790 v7 M450 790 v7 M480 790 v14 M510 790 v7 M540 790 v7 M570 790 v7 M600 790 v14 M630 790 v7 M660 790 v7 M690 790 v7 M720 790 v14 M750 790 v7 M780 790 v7 M810 790 v7 M840 790 v14 M870 790 v7 M900 790 v7 M930 790 v7 M960 790 v14 M990 790 v7 M1020 790 v7 M1050 790 v7 M1080 790 v14 " stroke="#c4c7cb" stroke-width="2"/>
+<path d="M554.8 63.5 V812" stroke="#c4c7cb" stroke-width="2" stroke-dasharray="6 8"/>
+<path d="M539.8 842 H736.8 M539.8 850 v-16 M736.8 850 v-16" stroke="#a9adb2" stroke-width="2.5" fill="none"/>
+<path d="M539.8 842 l12 -6 v12 Z M736.8 842 l-12 -6 v12 Z" fill="#a9adb2"/>
+<path d="M554.8,477.5 L653.9,636.7 L539.8,777.5" fill="none" stroke="#a9adb2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M527.6,774.9 L586.8,787.5" stroke="#a9adb2" stroke-width="13" stroke-linecap="round"/><circle cx="653.9" cy="636.7" r="8.1" fill="#fff" stroke="#a9adb2" stroke-width="4"/>
+<path d="M554.8,215.0 L479.2,329.8 L548.6,433.8" fill="none" stroke="#a9adb2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="548.6" cy="433.8" r="16.2" fill="#a9adb2"/><circle cx="479.2" cy="329.8" r="8.1" fill="#fff" stroke="#a9adb2" stroke-width="4"/>
+<path d="M554.8,477.5 L554.8,215.0" stroke="#141414" stroke-width="13" stroke-linecap="round"/>
+<path d="M524.8,450.0 L584.8,450.0" stroke="#141414" stroke-width="18.8" stroke-linecap="butt"/>
+<circle cx="554.8" cy="132.5" r="45.0" fill="#fff" stroke="#141414" stroke-width="12"/>
+<path d="M554.8,477.5 L720.8,564.7 L702.3,745.0" fill="none" stroke="#141414" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M695.2,734.8 L736.8,794.1" stroke="#141414" stroke-width="13" stroke-linecap="round"/><circle cx="720.8" cy="564.7" r="8.1" fill="#fff" stroke="#141414" stroke-width="4"/>
+<path d="M554.8,215.0 L479.2,329.8 L548.6,433.8" fill="none" stroke="#141414" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="548.6" cy="433.8" r="16.2" fill="#141414"/><circle cx="479.2" cy="329.8" r="8.1" fill="#fff" stroke="#141414" stroke-width="4"/>
+<circle cx="554.8" cy="477.5" r="8.8" fill="#141414"/>
+</svg>

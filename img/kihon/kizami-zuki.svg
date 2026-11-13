@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<title>kizami-zuki</title>
+<rect width="1200" height="900" fill="#fff"/>
+<path d="M120 790 H1080" stroke="#141414" stroke-width="3"/>
+<path d="M120 790 v14 M150 790 v7 M180 790 v7 M210 790 v7 M240 790 v14 M270 790 v7 M300 790 v7 M330 790 v7 M360 790 v14 M390 790 v7 M420 790 v7 M450 790 v7 M480 790 v14 M510 790 v7 M540 790 v7 M570 790 v7 M600 790 v14 M630 790 v7 M660 790 v7 M690 790 v7 M720 790 v14 M750 790 v7 M780 790 v7 M810 790 v7 M840 790 v14 M870 790 v7 M900 790 v7 M930 790 v7 M960 790 v14 M990 790 v7 M1020 790 v7 M1050 790 v7 M1080 790 v14 " stroke="#c4c7cb" stroke-width="2"/>
+<path d="M559.9 91.9 V812" stroke="#c4c7cb" stroke-width="2" stroke-dasharray="6 8"/>
+<path d="M559.9,502.5 L500.3,680.3 L347.4,777.5" fill="none" stroke="#a9adb2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M335.1,774.9 L406.0,790.0" stroke="#a9adb2" stroke-width="13" stroke-linecap="round"/><circle cx="500.3" cy="680.3" r="8.1" fill="#fff" stroke="#a9adb2" stroke-width="4"/>
+<path d="M596.4,242.6 L520.7,357.4 L590.1,461.3" fill="none" stroke="#a9adb2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="590.1" cy="461.3" r="16.2" fill="#a9adb2"/><circle cx="520.7" cy="357.4" r="8.1" fill="#fff" stroke="#a9adb2" stroke-width="4"/>
+<path d="M559.9,502.5 L596.4,242.6" stroke="#141414" stroke-width="13" stroke-linecap="round"/>
+<path d="M534.0,471.1 L593.4,479.4" stroke="#141414" stroke-width="18.8" stroke-linecap="butt"/>
+<circle cx="607.9" cy="160.9" r="45.0" fill="#fff" stroke="#141414" stroke-width="12"/>
+<path d="M559.9,502.5 L722.2,596.3 L722.4,777.5" fill="none" stroke="#141414" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M710.1,774.9 L781.0,790.0" stroke="#141414" stroke-width="13" stroke-linecap="round"/><circle cx="722.2" cy="596.3" r="8.1" fill="#fff" stroke="#141414" stroke-width="4"/>
+<path d="M596.4,242.6 L733.9,244.1 L852.6,205.1" fill="none" stroke="#141414" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="852.6" cy="205.1" r="16.2" fill="#141414"/><circle cx="733.9" cy="244.1" r="8.1" fill="#fff" stroke="#141414" stroke-width="4"/>
+<circle cx="559.9" cy="502.5" r="8.8" fill="#141414"/>
+<path d="M683.9,292.6 Q765.1,281.3 828.6,272.5" fill="none" stroke="#2f6fde" stroke-width="7" stroke-linecap="round"/>
+<path d="M846.4,270.1 L818.7,289.0 L814.6,259.3 Z" fill="#2f6fde"/>
+</svg>

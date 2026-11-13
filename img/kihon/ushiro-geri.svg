@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<title>ushiro-geri</title>
+<rect width="1200" height="900" fill="#fff"/>
+<path d="M120 790 H1080" stroke="#141414" stroke-width="3"/>
+<path d="M120 790 v14 M150 790 v7 M180 790 v7 M210 790 v7 M240 790 v14 M270 790 v7 M300 790 v7 M330 790 v7 M360 790 v14 M390 790 v7 M420 790 v7 M450 790 v7 M480 790 v14 M510 790 v7 M540 790 v7 M570 790 v7 M600 790 v14 M630 790 v7 M660 790 v7 M690 790 v7 M720 790 v14 M750 790 v7 M780 790 v7 M810 790 v7 M840 790 v14 M870 790 v7 M900 790 v7 M930 790 v7 M960 790 v14 M990 790 v7 M1020 790 v7 M1050 790 v7 M1080 790 v14 " stroke="#c4c7cb" stroke-width="2"/>
+<path d="M665.3 98.4 V812" stroke="#c4c7cb" stroke-width="2" stroke-dasharray="6 8"/>
+<path d="M665.3,450.0 L766.6,607.8 L702.8,777.5" fill="none" stroke="#a9adb2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M690.6,774.9 L761.5,790.0" stroke="#a9adb2" stroke-width="13" stroke-linecap="round"/><circle cx="766.6" cy="607.8" r="8.1" fill="#fff" stroke="#a9adb2" stroke-width="4"/>
+<path d="M815.9,235.0 L748.4,354.8 L865.9,397.5" fill="none" stroke="#a9adb2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="865.9" cy="397.5" r="16.2" fill="#a9adb2"/><circle cx="748.4" cy="354.8" r="8.1" fill="#fff" stroke="#a9adb2" stroke-width="4"/>
+<path d="M665.3,450.0 L815.9,235.0" stroke="#141414" stroke-width="13" stroke-linecap="round"/>
+<path d="M656.5,410.3 L705.7,444.7" stroke="#141414" stroke-width="18.8" stroke-linecap="butt"/>
+<circle cx="863.2" cy="167.4" r="45.0" fill="#fff" stroke="#141414" stroke-width="12"/>
+<path d="M665.3,450.0 L477.8,450.0 L296.6,450.0" fill="none" stroke="#141414" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M297.7,437.5 L292.4,497.8" stroke="#141414" stroke-width="13" stroke-linecap="round"/><circle cx="477.8" cy="450.0" r="8.1" fill="#fff" stroke="#141414" stroke-width="4"/>
+<path d="M815.9,235.0 L779.6,367.6 L903.4,385.0" fill="none" stroke="#141414" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="903.4" cy="385.0" r="16.2" fill="#141414"/><circle cx="779.6" cy="367.6" r="8.1" fill="#fff" stroke="#141414" stroke-width="4"/>
+<circle cx="665.3" cy="450.0" r="8.8" fill="#141414"/>
+<path d="M527.8,510.0 Q362.2,510.0 214.6,510.0" fill="none" stroke="#2f6fde" stroke-width="7" stroke-linecap="round"/>
+<path d="M196.6,510.0 L226.6,495.0 L226.6,525.0 Z" fill="#2f6fde"/>
+</svg>
