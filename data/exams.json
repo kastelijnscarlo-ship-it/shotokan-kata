@@ -1,0 +1,261 @@
+{
+  "_info": "Exam programmes per belt (Shin-ju Karate-do Amsterdam, Shotokan 4e platform / KBN). 'parts' holds each exam part once; a belt lists the parts it uses. Step 'dir': V = forward, A = backward, Z = sideways. 'move': h = towards the table, t = away from the table, ht = there and back. 'links' point to kihon ids, or to kata ids written as 'kata:<id>'.",
+  "sources": [
+    { "title": "Shin-ju Karate-do Amsterdam – examenprogramma's 7e t/m 1e kyu", "url": "https://www.shin-ju.nl/7e_kyu.html" },
+    { "title": "Examenprogramma 1e Dan Shotokan 4e platform KBN", "url": "https://www.kbn.nl/wp-content/uploads/2026/01/Examenprogramma-1e-Dan-Shotokan-4e-platform-KBN.pdf" },
+    { "title": "Shotokan 4e platform – programma's", "url": "http://www.shotokan4eplatform.nl/programmas.html" }
+  ],
+
+  "parts": {
+    "tsuki-a": {
+      "section": "kihon", "name": "Tsuki waza", "title": { "nl": "Stoottechnieken", "en": "Punching techniques" },
+      "reps": { "nl": "Elke techniek 5×, de 5e keer met kiai.", "en": "Each technique 5×, kiai on the 5th." },
+      "start": { "nl": "Yoi, dan linksvoor gedan barai kamaete in zenkutsu dachi.", "en": "Yoi, then left foot forward gedan barai kamaete in zenkutsu dachi." },
+      "steps": [
+        { "dir": "V", "move": "ht", "name": "Oi tsuki jodan", "desc": { "nl": "Stoot op neushoogte, in ZKD.", "en": "Lunge punch at nose height, in ZKD." }, "links": ["oi-zuki", "zenkutsu-dachi"] },
+        { "dir": "V", "move": "ht", "name": "Oi tsuki chudan", "desc": { "nl": "Stoot op maaghoogte, in ZKD.", "en": "Lunge punch at stomach height, in ZKD." }, "links": ["oi-zuki"] }
+      ],
+      "end": { "nl": "Yame: uit de stand komen en geconcentreerd in yoi blijven staan.", "en": "Yame: come out of the stance and stay focused in yoi." }
+    },
+    "tsuki-b": {
+      "section": "kihon", "name": "Tsuki waza", "title": { "nl": "Stoottechnieken", "en": "Punching techniques" },
+      "reps": { "nl": "Elke techniek 5×, de 5e keer met kiai.", "en": "Each technique 5×, kiai on the 5th." },
+      "start": { "nl": "Yoi, dan linksvoor gedan barai kamaete in zenkutsu dachi.", "en": "Yoi, then left foot forward gedan barai kamaete in zenkutsu dachi." },
+      "steps": [
+        { "dir": "V", "move": "h", "name": "Oi tsuki jodan", "desc": { "nl": "Stoot op neushoogte, in ZKD.", "en": "Lunge punch at nose height, in ZKD." }, "links": ["oi-zuki", "zenkutsu-dachi"] },
+        { "dir": "V", "move": "t", "name": "Oi tsuki chudan", "desc": { "nl": "Stoot op maaghoogte, in ZKD.", "en": "Lunge punch at stomach height, in ZKD." }, "links": ["oi-zuki"] },
+        { "dir": "V", "move": "h", "name": "Sanbon tsuki", "desc": { "nl": "Drie stoten: één op neushoogte, twee op maaghoogte, in ZKD.", "en": "Three punches: one at nose height, two at stomach height, in ZKD." }, "links": ["sanbon-zuki"] },
+        { "dir": "V", "move": "t", "name": "Gyaku tsuki", "desc": { "nl": "Tegengestelde stoot op maaghoogte, in ZKD.", "en": "Reverse punch at stomach height, in ZKD." }, "links": ["gyaku-zuki"] }
+      ]
+    },
+    "uke-a": {
+      "section": "kihon", "name": "Uke waza", "title": { "nl": "Afweertechnieken", "en": "Blocking techniques" },
+      "reps": { "nl": "Elke techniek 5×, de 5e keer met kiai.", "en": "Each technique 5×, kiai on the 5th." },
+      "start": { "nl": "Yoi, dan linksvoor gedan barai kamaete in zenkutsu dachi.", "en": "Yoi, then left foot forward gedan barai kamaete in zenkutsu dachi." },
+      "steps": [
+        { "dir": "V", "move": "h", "name": "Age uke", "desc": { "nl": "Opwaartse afweer in ZKD. De afweer vertrekt vanuit de heup.", "en": "Rising block in ZKD. The block starts from the hip." }, "links": ["age-uke"] },
+        { "dir": "A", "move": "t", "name": "Soto uke", "desc": { "nl": "Binnenwaartse afweer (van buiten naar binnen) in ZKD. Vertrekt vanaf ooghoogte.", "en": "Outside-to-inside block in ZKD. Starts from eye height." }, "links": ["soto-uke"] },
+        { "dir": "V", "move": "h", "name": "Uchi uke", "desc": { "nl": "Buitenwaartse afweer (van binnen naar buiten) in ZKD. Vertrekt onder de arm.", "en": "Inside-to-outside block in ZKD. Starts under the other arm." }, "links": ["uchi-uke"] },
+        { "dir": "A", "move": "t", "name": "Shuto uke", "desc": { "nl": "Meshand-afweer in kokutsu dachi (KKD). Vertrekt vanaf het oor.", "en": "Knife-hand block in kokutsu dachi (KKD). Starts from the ear." }, "links": ["shuto-uke", "kokutsu-dachi"] }
+      ],
+      "end": { "nl": "Yame: uit de stand komen en geconcentreerd in yoi blijven staan.", "en": "Yame: come out of the stance and stay focused in yoi." }
+    },
+    "uke-b": {
+      "section": "kihon", "name": "Uke waza", "title": { "nl": "Afweer + tegenaanval", "en": "Block + counter" },
+      "reps": { "nl": "Elke combinatie 5×, de 5e keer met kiai.", "en": "Each combination 5×, kiai on the 5th." },
+      "start": { "nl": "Yoi, dan linksvoor gedan barai kamaete in zenkutsu dachi.", "en": "Yoi, then left foot forward gedan barai kamaete in zenkutsu dachi." },
+      "steps": [
+        { "dir": "V", "move": "h", "name": "Age uke + gyaku tsuki", "desc": { "nl": "Opwaartse afweer, dan tegengestelde stoot. Beide in ZKD.", "en": "Rising block, then reverse punch. Both in ZKD." }, "links": ["age-uke", "gyaku-zuki"] },
+        { "dir": "A", "move": "t", "name": "Soto uke + gyaku tsuki", "desc": { "nl": "Binnenwaartse afweer, dan tegengestelde stoot. Beide in ZKD.", "en": "Outside-to-inside block, then reverse punch. Both in ZKD." }, "links": ["soto-uke", "gyaku-zuki"] },
+        { "dir": "V", "move": "h", "name": "Uchi uke + gyaku tsuki", "desc": { "nl": "Buitenwaartse afweer, dan tegengestelde stoot. Beide in ZKD.", "en": "Inside-to-outside block, then reverse punch. Both in ZKD." }, "links": ["uchi-uke", "gyaku-zuki"] },
+        { "dir": "A", "move": "t", "name": "Shuto uke + gyaku nukite", "desc": { "nl": "Meshand-afweer in KKD, dan speerhand-steek naar voren in ZKD.", "en": "Knife-hand block in KKD, then spear-hand thrust stepping into ZKD." }, "links": ["shuto-uke", "kokutsu-dachi", "nukite"] }
+      ]
+    },
+    "geri-a": {
+      "section": "kihon", "name": "Geri waza", "title": { "nl": "Traptechnieken", "en": "Kicking techniques" },
+      "reps": { "nl": "Elke techniek 5×, de 5e keer met kiai.", "en": "Each technique 5×, kiai on the 5th." },
+      "start": { "nl": "Linksvoor gedan barai kamaete in ZKD, dan naar kamae (gevechtshouding).", "en": "Left foot forward gedan barai kamaete in ZKD, then into kamae (fighting stance)." },
+      "steps": [
+        { "dir": "V", "move": "ht", "name": "Mae geri", "desc": { "nl": "Voorwaartse trap met de bal van de voet.", "en": "Front kick with the ball of the foot." }, "links": ["mae-geri"] },
+        { "dir": "V", "move": "ht", "name": "Mawashi geri", "desc": { "nl": "Cirkeltrap met de bal of de wreef van de voet.", "en": "Roundhouse kick with the ball or instep of the foot." }, "links": ["mawashi-geri"] }
+      ],
+      "end": { "nl": "Yame: uit de stand komen en geconcentreerd in yoi blijven staan.", "en": "Yame: come out of the stance and stay focused in yoi." }
+    },
+    "geri-b": {
+      "section": "kihon", "name": "Geri waza", "title": { "nl": "Traptechnieken", "en": "Kicking techniques" },
+      "reps": { "nl": "Elke techniek 5×, de 5e keer met kiai.", "en": "Each technique 5×, kiai on the 5th." },
+      "start": { "nl": "Linksvoor gedan barai kamaete in ZKD, dan naar kamae (gevechtshouding).", "en": "Left foot forward gedan barai kamaete in ZKD, then into kamae (fighting stance)." },
+      "steps": [
+        { "dir": "V", "move": "h", "name": "Mae geri", "desc": { "nl": "Voorwaartse trap met de bal van de voet.", "en": "Front kick with the ball of the foot." }, "links": ["mae-geri"] },
+        { "dir": "V", "move": "t", "name": "Yoko geri kekomi", "desc": { "nl": "Zijwaartse stoottrap met de zijkant van de voet.", "en": "Side thrust kick with the edge of the foot." }, "links": ["yoko-geri-kekomi"] },
+        { "dir": "V", "move": "h", "name": "Mawashi geri", "desc": { "nl": "Cirkeltrap met de bal of de wreef van de voet.", "en": "Roundhouse kick with the ball or instep of the foot." }, "links": ["mawashi-geri"] },
+        { "dir": "V", "move": "t", "name": "Ushiro geri", "desc": { "nl": "Achterwaartse trap met de hiel.", "en": "Back kick with the heel." }, "links": ["ushiro-geri"] }
+      ]
+    },
+    "yoko": {
+      "section": "kihon", "name": "Yoko geri waza", "title": { "nl": "Zijwaartse traptechnieken", "en": "Side kicks" },
+      "reps": { "nl": "Elke techniek 3×, de 3e keer met kiai.", "en": "Each technique 3×, kiai on the 3rd." },
+      "start": { "nl": "Linksvoor kiba dachi kamaete: direct in kiba dachi (KBD).", "en": "Left side kiba dachi kamaete: straight into kiba dachi (KBD)." },
+      "steps": [
+        { "dir": "Z", "move": "ht", "name": "Yoko geri keage", "desc": { "nl": "Opwaarts verende zijtrap, met een kruispas voorlangs (chidori ashi).", "en": "Snapping side kick, with a cross-step in front (chidori ashi)." }, "links": ["yoko-geri-keage", "kiba-dachi"] },
+        { "dir": "Z", "move": "ht", "name": "Yoko geri kekomi", "desc": { "nl": "Horizontaal stotende zijtrap, met een kruispas voorlangs (chidori ashi).", "en": "Thrusting side kick, with a cross-step in front (chidori ashi)." }, "links": ["yoko-geri-kekomi", "kiba-dachi"] }
+      ],
+      "end": { "nl": "Yame en yasume: einde van de kihon.", "en": "Yame and yasume: end of the kihon." }
+    },
+    "renzoku": {
+      "section": "kihon", "name": "Renzoku waza", "title": { "nl": "Combinaties", "en": "Combinations" },
+      "reps": { "nl": "Elke combinatie 3×, kiai op de laatste techniek.", "en": "Each combination 3×, kiai on the last technique." },
+      "start": { "nl": "Linksvoor gedan barai kamaete in ZKD, dan naar kamae (gevechtshouding).", "en": "Left foot forward gedan barai kamaete in ZKD, then into kamae (fighting stance)." },
+      "steps": [
+        { "heading": { "nl": "Combinatie 1 · heen", "en": "Combination 1 · towards the table" } },
+        { "dir": "V", "name": "Oi tsuki jodan + gyaku tsuki", "desc": { "nl": "In ZKD.", "en": "In ZKD." }, "links": ["oi-zuki", "gyaku-zuki"] },
+        { "dir": "A", "name": "Age uke + soto uke", "desc": { "nl": "Twee afweren met dezelfde arm, in ZKD.", "en": "Two blocks with the same arm, in ZKD." }, "links": ["age-uke", "soto-uke"] },
+        { "dir": "V", "name": "Mawashi geri + yoko uraken uchi + gyaku tsuki", "desc": { "nl": "Uraken even vastzetten in het eindpunt, dan gyaku tsuki in ZKD.", "en": "Hold the uraken briefly at its end point, then gyaku tsuki in ZKD." }, "links": ["mawashi-geri", "uraken-uchi", "gyaku-zuki"] },
+        { "heading": { "nl": "Combinatie 2 · terug", "en": "Combination 2 · away from the table" } },
+        { "dir": "V", "name": "Mae geri + tsuki chudan", "desc": { "nl": "In ZKD.", "en": "In ZKD." }, "links": ["mae-geri", "oi-zuki"] },
+        { "dir": "A", "name": "Gedan barai + uchi uke", "desc": { "nl": "Twee afweren met dezelfde arm, in ZKD.", "en": "Two blocks with the same arm, in ZKD." }, "links": ["gedan-barai", "uchi-uke"] },
+        { "dir": "V", "name": "Ushiro geri + yoko uraken uchi + gyaku tsuki", "desc": { "nl": "Uraken even vastzetten in het eindpunt, dan gyaku tsuki in ZKD.", "en": "Hold the uraken briefly at its end point, then gyaku tsuki in ZKD." }, "links": ["ushiro-geri", "uraken-uchi", "gyaku-zuki"] }
+      ]
+    },
+
+    "ippon-a": {
+      "section": "kumite", "name": "Ippon kumite", "title": { "nl": "Eenstaps-partnervorm", "en": "One-step sparring" },
+      "reps": { "nl": "4 aanvallen rechts en 4 links, zonder tel. Daarna wisselen van rol.", "en": "4 attacks on the right and 4 on the left, without counting. Then swap roles." },
+      "steps": [
+        { "name": "Jodan · age uke + gyaku tsuki", "desc": { "nl": "Uke stapt recht achteruit. Tegenaanval met kiai.", "en": "Uke steps straight back. Counter with kiai." }, "links": ["age-uke", "gyaku-zuki"] },
+        { "name": "Chudan · soto uke + gyaku tsuki", "desc": { "nl": "Uke stapt uit de lijn naar buiten. Tegenaanval met kiai.", "en": "Uke steps off the line to the outside. Counter with kiai." }, "links": ["soto-uke", "gyaku-zuki"] },
+        { "name": "Mae geri · gedan barai + gyaku tsuki", "desc": { "nl": "Uke stapt uit de lijn naar binnen. Tegenaanval met kiai.", "en": "Uke steps off the line to the inside. Counter with kiai." }, "links": ["mae-geri", "gedan-barai", "gyaku-zuki"] },
+        { "name": "Mawashi geri · uchi uke + gyaku tsuki", "desc": { "nl": "Uke stapt uit de lijn naar binnen. Tegenaanval met kiai.", "en": "Uke steps off the line to the inside. Counter with kiai." }, "links": ["mawashi-geri", "uchi-uke", "gyaku-zuki"] }
+      ],
+      "notes": [
+        { "label": { "nl": "Tori (aanvaller)", "en": "Tori (attacker)" }, "nl": "Stapt met het linkerbeen naar voren in jiyu kamae, kondigt de aanval luid en duidelijk aan en stapt na de aanval terug naar jiyu kamae.", "en": "Steps forward with the left leg into jiyu kamae, announces the attack loudly and clearly, and steps back into jiyu kamae after the attack." },
+        { "label": { "nl": "Uke (verdediger)", "en": "Uke (defender)" }, "nl": "Stapt met het rechterbeen naar achteren in jiyu kamae, laat een goede afweer en tegenaanval zien en gaat daarna terug naar jiyu kamae.", "en": "Steps back with the right leg into jiyu kamae, shows a good block and counter, then returns to jiyu kamae." }
+      ]
+    },
+    "ippon-b": {
+      "section": "kumite", "name": "Ippon kumite", "title": { "nl": "Eenstaps-partnervorm, met nieuwe tegenaanvallen", "en": "One-step sparring, with new counters" },
+      "reps": { "nl": "4 aanvallen rechts en 4 links, zonder tel. Daarna wisselen van rol.", "en": "4 attacks on the right and 4 on the left, without counting. Then swap roles." },
+      "steps": [
+        { "name": "Jodan · age uke + gyaku teisho uchi", "desc": { "nl": "Recht achteruit. Handpalmslag onder de kin.", "en": "Straight back. Palm-heel strike under the chin." }, "links": ["age-uke", "teisho-uchi"] },
+        { "name": "Chudan · soto uke + mawashi geri chudan", "desc": { "nl": "Wegdraaien uit de lijn naar buiten. Cirkeltrap met de wreef.", "en": "Turn off the line to the outside. Roundhouse kick with the instep." }, "links": ["soto-uke", "mawashi-geri"] },
+        { "name": "Mae geri · gedan barai + gyaku shuto uchi", "desc": { "nl": "Uit de lijn naar binnen. Slag met de pinkzijde van de hand naar de nek.", "en": "Off the line to the inside. Knife-hand strike to the neck." }, "links": ["gedan-barai", "shuto-uchi"] },
+        { "name": "Mawashi geri · uchi uke + gyaku tsuki chudan", "desc": { "nl": "Uit de lijn naar binnen. Tegengestelde stoot naar de maag.", "en": "Off the line to the inside. Reverse punch to the stomach." }, "links": ["uchi-uke", "gyaku-zuki"] }
+      ],
+      "notes": [
+        { "nl": "De tegenaanval is krachtig en snel, met behoud van controle. Elke tegenaanval met kiai.", "en": "The counter is strong and fast, while staying in control. Every counter with kiai." }
+      ]
+    },
+    "jiyu-ippon": {
+      "section": "kumite", "name": "Jiyu ippon kumite", "title": { "nl": "Vrij bewegende eenstaps-partnervorm", "en": "Free-moving one-step sparring" },
+      "reps": { "nl": "4 aanvallen met rechts en 4 met links. Daarna wisselen van rol.", "en": "4 attacks with the right and 4 with the left. Then swap roles." },
+      "steps": [
+        { "name": "1 · Oi tsuki jodan", "tori": { "nl": "Stoot met rechts naar de kin. Stap met je voet aan de binnenkant van de voet van uke. Daarna stap achteruit.", "en": "Right punch to the chin. Step with your foot on the inside of uke's foot. Then step back." }, "uke": { "nl": "Schuifpas met rechts recht naar achteren, age uke met links in ZKD en pak de arm van tori. Gyaku jodan teisho uchi onder de kin terwijl je de arm omlaag trekt. Vastzetten met kiai.", "en": "Slide the right leg straight back, age uke with the left in ZKD and grab tori's arm. Gyaku jodan teisho uchi under the chin while pulling the arm down. Hold with kiai." }, "links": ["age-uke", "teisho-uchi"] },
+        { "name": "2 · Oi tsuki chudan", "tori": { "nl": "Stoot met rechts naar de borst. Stap aan de binnenkant van de voet van uke. Daarna stap achteruit.", "en": "Right punch to the chest. Step on the inside of uke's foot. Then step back." }, "uke": { "nl": "Draai met rechts weg uit de lijn naar links, soto uke met links in ZKD. Trek de voorste voet iets terug voor ruimte. Mawashi geri chudan met de wreef, met kiai. Zet de voet daarna schuin achteruit neer.", "en": "Turn the right leg off the line to the left, soto uke with the left in ZKD. Pull the front foot back a little to make room. Mawashi geri chudan with the instep, with kiai. Then put the foot down diagonally behind you." }, "links": ["soto-uke", "mawashi-geri"] },
+        { "name": "3 · Mae geri", "tori": { "nl": "Trap met rechts naar de maag. Stap aan de buitenkant van de voet van uke. Daarna stap achteruit.", "en": "Right kick to the stomach. Step on the outside of uke's foot. Then step back." }, "uke": { "nl": "Schuifpas met rechts uit de lijn naar rechts, gedan barai met links in ZKD. Gyaku shuto uchi naar de zijkant van de hals. Vastzetten met kiai.", "en": "Slide the right leg off the line to the right, gedan barai with the left in ZKD. Gyaku shuto uchi to the side of the neck. Hold with kiai." }, "links": ["gedan-barai", "shuto-uchi"] },
+        { "name": "4 · Mawashi geri", "tori": { "nl": "Cirkeltrap met rechts. Stap aan de buitenkant van de voet van uke. Daarna stap achteruit.", "en": "Right roundhouse kick. Step on the outside of uke's foot. Then step back." }, "uke": { "nl": "Schuifpas met rechts uit de lijn naar rechts, uchi uke met links in ZKD. Gyaku tsuki chudan met kiai, en trek de vuist snel terug naar kamae.", "en": "Slide the right leg off the line to the right, uchi uke with the left in ZKD. Gyaku tsuki chudan with kiai, then pull the fist back quickly into kamae." }, "links": ["uchi-uke", "gyaku-zuki"] }
+      ],
+      "notes": [
+        { "label": { "nl": "Begin", "en": "Start" }, "nl": "Op 2 à 3 meter tegenover elkaar in musubi dachi, otagai ni rei. Samen naar yoi dachi (eerst links, dan rechts). Tori stapt met links naar voren in jiyu kamae, uke stapt met rechts naar achteren in jiyu kamae. Beiden staan linksvoor.", "en": "Facing each other 2 to 3 metres apart in musubi dachi, otagai ni rei. Together into yoi dachi (left foot first, then right). Tori steps forward with the left into jiyu kamae, uke steps back with the right into jiyu kamae. Both stand left foot forward." },
+        { "label": { "nl": "Aanval", "en": "Attack" }, "nl": "Tori kondigt de aanval luid aan en valt 2 tot 5 seconden later aan: doelgericht, krachtig, snel, met een volledige stap naar voren en zonder kiai. Geen schijnbewegingen en niet van been wisselen.", "en": "Tori announces the attack loudly and attacks 2 to 5 seconds later: on target, strong, fast, with a full step forward and without kiai. No feints and no switching legs." },
+        { "label": { "nl": "Afweer", "en": "Block" }, "nl": "Uke wacht met zanshin, verplaatst en weert tegelijk af met de voorste arm, in een uitgedraaide heupstand (hanmi), met aandacht voor de hikite.", "en": "Uke waits with zanshin, moves and blocks at the same time with the front arm, hips turned away (hanmi), paying attention to the hikite." },
+        { "label": { "nl": "Tegenaanval", "en": "Counter" }, "nl": "Direct na de afweer, krachtig en snel, gecontroleerd op het doel en met kiai. Geen veegtechnieken of worpen. Daarna terug naar jiyu kamae.", "en": "Straight after the block, strong and fast, controlled on target and with kiai. No sweeps or throws. Then back into jiyu kamae." },
+        { "label": { "nl": "Wissel en einde", "en": "Switch and finish" }, "nl": "Na 4 aanvallen met rechts beiden hantai kamae (van been wisselen), dan 4 met links. Afsluiten: tori stapt met links terug, uke met rechts naar voren, naar yoi dachi. Musubi dachi en otagai ni rei.", "en": "After 4 attacks with the right, both switch legs (hantai kamae), then 4 with the left. To finish: tori steps back with the left, uke forward with the right, into yoi dachi. Musubi dachi and otagai ni rei." },
+        { "label": { "nl": "Waar het om gaat", "en": "What it's about" }, "nl": "Go no sen: je weet welke aanval komt, dus verplaats en weer af in een stevige stand. Een goede afweer maakt de opening voor je tegenaanval. Afstand en timing moeten kloppen, en beiden blijven alert.", "en": "Go no sen: you know which attack is coming, so move and block in a solid stance. A good block creates the opening for your counter. Distance and timing must be right, and both stay alert." }
+      ]
+    },
+    "jiyu-a": {
+      "section": "kumite", "name": "Jiyu kumite", "title": { "nl": "Vrij sparren", "en": "Free sparring" },
+      "reps": { "nl": "2 rondes van 2 minuten.", "en": "2 rounds of 2 minutes." },
+      "notes": [
+        { "nl": "Aanvallen, verdedigen, overnemen, anticiperen en counteren.", "en": "Attacking, defending, taking over, anticipating and countering." },
+        { "nl": "Licht contact: controle en krachtdosering staan centraal.", "en": "Light contact: control and measured power come first." },
+        { "nl": "Je draagt rode of blauwe vuistbeschermers volgens de WKF-norm.", "en": "You wear red or blue fist protectors to the WKF standard." }
+      ]
+    },
+    "jiyu-b": {
+      "section": "kumite", "name": "Jiyu kumite", "title": { "nl": "Vrij sparren met vaste opbouw", "en": "Free sparring with a set structure" },
+      "reps": { "nl": "2 rondes van 2 minuten, met medekandidaten.", "en": "2 rounds of 2 minutes, with fellow candidates." },
+      "notes": [
+        { "label": { "nl": "0:00–0:30", "en": "0:00–0:30" }, "nl": "Kandidaat 1 valt aan met stoten en trappen. Kandidaat 2 verdedigt alleen: afweren, ontwijken en wegdraaien, zonder tegenaanval.", "en": "Candidate 1 attacks with punches and kicks. Candidate 2 only defends: blocking, evading and turning away, without countering." },
+        { "label": { "nl": "0:30–1:00", "en": "0:30–1:00" }, "nl": "Wissel: kandidaat 2 valt aan, kandidaat 1 verdedigt.", "en": "Switch: candidate 2 attacks, candidate 1 defends." },
+        { "label": { "nl": "1:00–2:00", "en": "1:00–2:00" }, "nl": "Vrij sparren: beiden vallen aan en verdedigen. Maak er geen wedstrijd van.", "en": "Free sparring: both attack and defend. Don't turn it into a competition." }
+      ]
+    },
+    "bunkai": {
+      "section": "kumite", "name": "Bunkai", "title": { "nl": "Toepassing van de kata", "en": "Kata application" },
+      "reps": { "nl": "Heian Nidan of Heian Sandan, naar keuze.", "en": "Heian Nidan or Heian Sandan, your choice." },
+      "steps": [
+        { "name": "Heian Nidan", "desc": { "nl": "Keuzekata voor de bunkai.", "en": "Choice kata for the bunkai." }, "links": ["kata:heian-nidan"] },
+        { "name": "Heian Sandan", "desc": { "nl": "Keuzekata voor de bunkai.", "en": "Choice kata for the bunkai." }, "links": ["kata:heian-sandan"] }
+      ],
+      "notes": [
+        { "label": { "nl": "Inhoud", "en": "Content" }, "nl": "Toon alle technieken van de kata in de juiste volgorde, zo dat de structuur van de kata herkenbaar blijft. Worpen, armklemmen en verwurgingen mogen (maximaal 3 worpen). Sluit af met een worp en een eindtechniek, en neem dan afstand.", "en": "Show every technique of the kata in the right order, so the kata's structure stays recognisable. Throws, arm locks and chokes are allowed (3 throws at most). Finish with a throw and a finishing technique, then step away." },
+        { "label": { "nl": "Uitvoering", "en": "Performance" }, "nl": "Vanuit vrije gevechtshouding, met zanshin. Inzicht, timing, afstand, coördinatie, houding en balans moeten zichtbaar zijn. Het moet eruitzien als een geloofwaardig gevecht, met kiai aan het einde van elke combinatie.", "en": "From a free fighting stance, with zanshin. Understanding, timing, distance, coordination, posture and balance must show. It should look like a believable fight, with kiai at the end of each combination." },
+        { "label": { "nl": "Groeten", "en": "Etiquette" }, "nl": "Naast elkaar aan het begin van de tatami, de kandidaat rechts van de aanvaller. Groet de tatami, doe 5 stappen naar voren (links beginnen), groet en kondig de bunkai aan. Kwartdraai naar elkaar, groeten, samen yoi dachi, dan hajime. Na afloop groeten en in omgekeerde volgorde terug (rechts beginnen).", "en": "Side by side at the start of the tatami, the candidate to the right of the attacker. Bow to the tatami, take 5 steps forward (starting left), bow and announce the bunkai. Quarter turn to face each other, bow, both into yoi dachi, then hajime. Afterwards bow and return in reverse order (starting right)." }
+      ]
+    }
+  },
+
+  "belts": [
+    {
+      "id": "7-kyu", "kyu": 7, "color": "#F2C230",
+      "belt": { "nl": "Gele band", "en": "Yellow belt" }, "grade": { "nl": "7e kyu", "en": "7th kyu" },
+      "source": "https://www.shin-ju.nl/7e_kyu.html",
+      "kihon": ["tsuki-a", "uke-a", "geri-a", "yoko"],
+      "kata": [ { "id": "heian-shodan", "note": { "nl": "1× op tel en 1× zonder tel.", "en": "Once on count and once without." } } ],
+      "kumite": ["ippon-a", "jiyu-a"]
+    },
+    {
+      "id": "6-kyu", "kyu": 6, "color": "#E8792B",
+      "belt": { "nl": "Oranje band", "en": "Orange belt" }, "grade": { "nl": "6e kyu", "en": "6th kyu" },
+      "source": "https://www.shin-ju.nl/6e_kyu.html",
+      "kihon": ["tsuki-a", "uke-a", "geri-a", "yoko"],
+      "kata": [ { "id": "heian-shodan" }, { "id": "heian-nidan" } ],
+      "kumite": ["ippon-a", "jiyu-a"]
+    },
+    {
+      "id": "5-kyu", "kyu": 5, "color": "#3E8E41",
+      "belt": { "nl": "Groene band", "en": "Green belt" }, "grade": { "nl": "5e kyu", "en": "5th kyu" },
+      "source": "https://www.shin-ju.nl/5e_kyu.html",
+      "kihon": ["tsuki-a", "uke-a", "geri-a", "yoko"],
+      "kata": [ { "id": "heian-nidan" }, { "id": "heian-sandan" } ],
+      "kumite": ["ippon-a", "jiyu-a"]
+    },
+    {
+      "id": "4-kyu", "kyu": 4, "color": "#2C5AA0",
+      "belt": { "nl": "Blauwe band", "en": "Blue belt" }, "grade": { "nl": "4e kyu", "en": "4th kyu" },
+      "source": "https://www.shin-ju.nl/4e_kyu.html",
+      "kihon": ["tsuki-b", "uke-b", "geri-b", "yoko"],
+      "kata": [ { "id": "heian-sandan" }, { "id": "heian-yondan" } ],
+      "kumite": ["ippon-a", "jiyu-a"]
+    },
+    {
+      "id": "3-kyu", "kyu": 3, "color": "#6B4226",
+      "belt": { "nl": "Bruine band", "en": "Brown belt" }, "grade": { "nl": "3e kyu", "en": "3rd kyu" },
+      "source": "https://www.shin-ju.nl/3e_kyu.html",
+      "kihon": ["tsuki-b", "uke-b", "geri-b", "yoko", "renzoku"],
+      "kata": [ { "id": "heian-godan" }, { "id": "tekki-shodan" } ],
+      "kumite": ["ippon-b", "jiyu-b"]
+    },
+    {
+      "id": "2-kyu", "kyu": 2, "color": "#6B4226",
+      "belt": { "nl": "Bruine band", "en": "Brown belt" }, "grade": { "nl": "2e kyu", "en": "2nd kyu" },
+      "source": "https://www.shin-ju.nl/2e_kyu.html",
+      "incomplete": { "nl": "Het programma voor 2e kyu staat nog niet online. Volgens Shin-ju hoort Bassai Dai bij deze graad. Vraag je leraar naar de rest.", "en": "The 2nd kyu programme isn't online yet. According to Shin-ju, Bassai Dai belongs to this grade. Ask your instructor about the rest." },
+      "_todo": "Fill in kihon, kata and kumite once the 2nd kyu programme is published.",
+      "kihon": [],
+      "kata": [ { "id": "bassai-dai" } ],
+      "kumite": []
+    },
+    {
+      "id": "1-kyu", "kyu": 1, "color": "#6B4226",
+      "belt": { "nl": "Bruine band", "en": "Brown belt" }, "grade": { "nl": "1e kyu", "en": "1st kyu" },
+      "source": "https://www.shin-ju.nl/1e_kyu.html",
+      "kihon": ["tsuki-b", "uke-b", "geri-b", "yoko", "renzoku"],
+      "kata": [
+        { "choice": ["heian-shodan", "heian-nidan", "heian-sandan", "heian-yondan", "heian-godan"], "note": { "nl": "1 Heian naar keuze.", "en": "1 Heian of your choice." } },
+        { "id": "tekki-shodan" },
+        { "id": "kanku-dai" }
+      ],
+      "kumite": ["jiyu-ippon", "jiyu-b"]
+    },
+    {
+      "id": "1-dan", "dan": 1, "color": "#111111",
+      "belt": { "nl": "Zwarte band", "en": "Black belt" }, "grade": { "nl": "1e dan", "en": "1st dan" },
+      "source": "https://www.kbn.nl/wp-content/uploads/2026/01/Examenprogramma-1e-Dan-Shotokan-4e-platform-KBN.pdf",
+      "kihon": ["tsuki-b", "uke-b", "geri-b", "yoko", "renzoku"],
+      "kata": [
+        { "choice": ["heian-shodan", "heian-nidan", "heian-sandan", "heian-yondan", "heian-godan"], "note": { "nl": "1 Heian naar keuze.", "en": "1 Heian of your choice." } },
+        { "id": "tekki-shodan", "note": { "nl": "Verplicht.", "en": "Required." } },
+        { "choice": ["bassai-dai", "kanku-dai", "jion", "empi"], "note": { "nl": "1 kata naar keuze.", "en": "1 kata of your choice." } }
+      ],
+      "kumite": ["jiyu-ippon", "bunkai", "jiyu-b"],
+      "focus": [
+        { "label": { "nl": "Kihon", "en": "Kihon" }, "nl": "Je kent de technieken en hun Japanse namen. De kenmerken van Shotokan moeten te zien zijn: grote bewegingen, diepe standen en duidelijke eindpunten, met zichtbare beheersing.", "en": "You know the techniques and their Japanese names. Shotokan's hallmarks must show: big movements, deep stances and clear end points, with visible control." },
+        { "label": { "nl": "Kata", "en": "Kata" }, "nl": "Een kata is alleen correct als elke techniek in de voorgeschreven volgorde komt. Voer hem uit als een gevecht tegen meerdere tegenstanders. Variaties zoals je eigen dojo ze leert, zijn toegestaan.", "en": "A kata only counts if every technique comes in the prescribed order. Perform it as a fight against several opponents. Variations as taught in your own dojo are allowed." },
+        { "label": { "nl": "Jiyu kumite", "en": "Jiyu kumite" }, "nl": "Geen ashi barai (vegen) en geen nage waza (worpen). Geen scheen- of voetbeschermers; een bitje of tok mag. Een bril alleen met toestemming en op eigen risico. Rode of blauwe WKF-vuistbeschermers. De verdediger tikt technieken licht aan of pareert; ontspannen en beweeglijk sparren.", "en": "No ashi barai (sweeps) and no nage waza (throws). No shin or foot protectors; a mouthguard or groin guard is allowed. Glasses only with permission and at your own risk. Red or blue WKF fist protectors. The defender touches or parries lightly; spar relaxed and mobile." },
+        { "label": { "nl": "Bijzonder examen en 60-plus", "en": "Special exam and 60+" }, "nl": "De bunkai vervalt. Kumite is dan: jiyu ippon kumite, plus 1 ronde jiyu kumite van 2 minuten.", "en": "No bunkai. Kumite is then: jiyu ippon kumite, plus 1 round of 2 minutes jiyu kumite." }
+      ]
+    }
+  ]
+}

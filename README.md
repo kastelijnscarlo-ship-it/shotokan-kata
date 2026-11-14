@@ -1,6 +1,6 @@
 # Shotokan Kata
 
-A simple, mobile-first web app with all 26 Shotokan kata (with video) and the basic kihon techniques, in Dutch and English. It's a static site: no accounts, no login, no tracking, no analytics. Videos play through YouTube's privacy-enhanced mode (`youtube-nocookie.com`).
+A simple, mobile-first study app for Shotokan exams: the exam programme per belt (7th kyu to 1st dan), all 26 kata (with video), the basic kihon techniques and the theory (etiquette, counting, terms), in Dutch and English. It's a static site: no accounts, no login, no tracking, no analytics. Videos play through YouTube's privacy-enhanced mode (`youtube-nocookie.com`).
 
 ## Put it online with GitHub Pages (no software needed)
 
@@ -31,16 +31,28 @@ All content lives in the `data` folder. You can edit it directly on GitHub: open
   - `level`: which section the kata appears in (`kyu`, `dan1`, `dan2`, `dan3`).
   - `meaning`: what the name means (`nl` / `en`).
   - `exam`: where the kata appears in the KBN dan exam programme (`nl` / `en`).
-  - `kyu`: **to fill in yourself.** KBN has no national kyu syllabus, because each club sets its own kyu exams. Every `kyu` is therefore `null`, and the app shows a yellow "not filled in yet" note. Enter your club's grade as a number, for example `"kyu": 8`. You can then delete the `_todo_kyu` line.
+  - `kyu`: the kyu grade where the kata first appears in the Shin-ju exam programme (Heian Shodan 7, Nidan 6, Sandan 5, Yondan 4, Godan 3, Tekki Shodan 3, Bassai Dai 2, Kanku Dai 1). `null` means the kata isn't part of a kyu exam. The kata page also lists every belt whose exam includes it, taken from `data/exams.json`.
   - `video.youtubeId`: the 11 characters after `watch?v=` in a YouTube link. For example, `https://www.youtube.com/watch?v=abcDEF12345` → `"abcDEF12345"`. Leave it empty (`""`) to show "no video yet". `title` and `channel` appear as the credit under the video.
 
 ### `data/kihon.json`
 
 Grouped into stances, punches and strikes, blocks and kicks. Each technique has `name` (romaji), `translation` and `explanation` (`nl` / `en`).
 
+### `data/exams.json`
+
+The exam programme per belt, from 7th kyu (yellow) to 1st dan, following Shin-ju Karate-do Amsterdam (Shotokan 4e platform) and the KBN 1st dan programme.
+
+- `parts`: every exam part once (for example `tsuki-a`, `renzoku`, `jiyu-ippon`), with its steps. `dir` is V (forward), A (backward) or Z (sideways); `move` is `h` (towards the table), `t` (away from it) or `ht` (there and back). `links` point to kihon ids, or to kata as `kata:<id>`. These become the buttons under each step.
+- `belts`: per belt, which parts are in `kihon` and `kumite`, plus the `kata` (`"id"` for one kata, `"choice"` for a list to choose from). The app marks a part or kata as **New** when no earlier belt had it.
+- 2nd kyu is marked `incomplete`: its programme isn't online yet, so only Bassai Dai is listed. Fill in `kihon`, `kata` and `kumite` once you have it, and delete `incomplete`.
+
+### `data/theory.json`
+
+Bowing, counting, exam abbreviations, a glossary, kinds of kata and a short history. Each belt page lists the terms that occur in its programme automatically. Terms with `"scan": false` are left out of that list.
+
 ### Kihon images
 
-Each of the 33 techniques has a `.png` in `img/kihon/`, named after the technique (for example `img/kihon/mae-geri.png`), and `"image"` in `data/kihon.json` points to it. A technique without a picture shows a grey placeholder with its name. See [`img/kihon/README.md`](img/kihon/README.md) for how to add or replace one.
+33 of the 35 techniques have a `.png` in `img/kihon/` (sanbon-zuki and nukite don't have a picture yet), named after the technique (for example `img/kihon/mae-geri.png`), and `"image"` in `data/kihon.json` points to it. A technique without a picture shows a grey placeholder with its name. See [`img/kihon/README.md`](img/kihon/README.md) for how to add or replace one.
 
 To upload them on GitHub: open the `img/kihon` folder in your repo, click **Add file → Upload files**, drag the pictures in and click **Commit changes**.
 

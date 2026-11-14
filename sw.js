@@ -1,6 +1,6 @@
 /* Service worker: keeps the app working offline (videos still need internet).
    Bump VERSION when you change code files so phones pick up the new version. */
-var VERSION = 'kata-v2';
+var VERSION = 'kata-v3';
 var SHELL = [
   './',
   'index.html',
@@ -9,6 +9,8 @@ var SHELL = [
   'js/player.js',
   'data/kata.json',
   'data/kihon.json',
+  'data/exams.json',
+  'data/theory.json',
   'manifest.webmanifest',
   'icons/icon.svg',
   'icons/icon-192.png',

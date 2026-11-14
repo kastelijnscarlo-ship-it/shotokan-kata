@@ -1,0 +1,155 @@
+{
+  "_info": "Theory: terms and background you are expected to know at exams. Each group has 'terms' (term + meaning in nl/en, optional 'say' = pronunciation) or 'text' (paragraphs). Terms marked \"scan\": false are not picked up in the 'terms in this exam' list on the belt pages.",
+  "sources": [
+    { "title": "Shin-ju – Groeten & tellen", "url": "https://www.shin-ju.nl/groeten_tellen.html" },
+    { "title": "Shin-ju – Termen & begrippen", "url": "https://www.shin-ju.nl/termen_begrippen.html" },
+    { "title": "Shin-ju – Kata betekenis", "url": "https://www.shin-ju.nl/kata_betekenis.html" },
+    { "title": "Shin-ju – De grondlegger", "url": "https://www.shin-ju.nl/funakoshi.html" }
+  ],
+  "groups": [
+    {
+      "id": "abbr", "title": { "nl": "Afkortingen in het examenprogramma", "en": "Abbreviations in the exam programme" },
+      "terms": [
+        { "term": "V", "nl": "Voorwaarts", "en": "Forward", "scan": false },
+        { "term": "A", "nl": "Achterwaarts", "en": "Backward", "scan": false },
+        { "term": "Z", "nl": "Zijwaarts", "en": "Sideways", "scan": false },
+        { "term": "Heen", "nl": "In de richting van de examentafel bewegen", "en": "Moving towards the examiners' table", "scan": false },
+        { "term": "Terug", "nl": "Van de examentafel af bewegen", "en": "Moving away from the examiners' table", "scan": false },
+        { "term": "ZKD", "nl": "Zenkutsu dachi: voorwaartse stand", "en": "Zenkutsu dachi: front stance" },
+        { "term": "KKD", "nl": "Kokutsu dachi: achterwaartse stand", "en": "Kokutsu dachi: back stance" },
+        { "term": "KBD", "nl": "Kiba dachi: paardrijstand", "en": "Kiba dachi: horse-riding stance" },
+        { "term": "Op tel", "nl": "Elke beweging op het tellen van de examinator (ichi, ni, san…)", "en": "Each movement on the examiner's count (ichi, ni, san…)" }
+      ]
+    },
+    {
+      "id": "etiquette", "title": { "nl": "Groeten in de dojo", "en": "Bowing in the dojo" },
+      "intro": { "nl": "Groeten is een teken van respect: voor de grondlegger, de dojo, de leraar en elkaar. Je groet bij het binnenkomen en verlaten van de dojo. Bij het begin en einde van de les sta je op een rij, op volgorde van graad (hoogste graad rechts van de leraar), in musubi dachi. De hoogste leerling leidt het groeten.", "en": "Bowing shows respect: for the founder, the dojo, the teacher and each other. You bow when entering and leaving the dojo. At the start and end of class you line up by grade (highest grade on the teacher's right), in musubi dachi. The senior student leads the bowing." },
+      "terms": [
+        { "term": "Seiza", "nl": "Formele kniezit", "en": "Formal kneeling" },
+        { "term": "Mokuso", "nl": "Begin van de meditatie: ogen dicht", "en": "Start of meditation: close your eyes" },
+        { "term": "Mokuso yame", "nl": "Einde van de meditatie: ogen open", "en": "End of meditation: open your eyes" },
+        { "term": "Shomen ni rei", "nl": "Groet naar de voorkant (Funakoshi, de grondlegger)", "en": "Bow to the front (Funakoshi, the founder)" },
+        { "term": "Sensei ni rei", "nl": "Groet naar de leraar", "en": "Bow to the teacher" },
+        { "term": "Otagai ni rei", "nl": "Groet naar elkaar", "en": "Bow to each other" },
+        { "term": "Kiritsu", "nl": "Opstaan", "en": "Stand up" },
+        { "term": "Oss", "nl": "Groet; ook: begrepen", "en": "Greeting; also: understood" }
+      ]
+    },
+    {
+      "id": "kata-ceremony", "title": { "nl": "Groeten bij een kata", "en": "Bowing for a kata" },
+      "intro": { "nl": "Een kata is een denkbeeldig gevecht tegen meerdere tegenstanders, in een vaste vorm. Je kunt hem overal en altijd alleen oefenen. Zo begin en eindig je:", "en": "A kata is an imaginary fight against several opponents, in a fixed form. You can practise it alone, anywhere, any time. This is how you start and finish:" },
+      "terms": [
+        { "term": "Musubi dachi", "nl": "Hielen tegen elkaar, voeten in een V", "en": "Heels together, feet in a V" },
+        { "term": "Rei", "nl": "Groet, buiging", "en": "Bow" },
+        { "term": "(naam van de kata)", "nl": "Je noemt hardop de kata, bijvoorbeeld ‘Heian Shodan’", "en": "You say the kata's name out loud, e.g. ‘Heian Shodan’", "scan": false },
+        { "term": "Yoi", "nl": "Gereed: neem de beginhouding aan", "en": "Ready: take the starting position" },
+        { "term": "Hajime", "nl": "Begin", "en": "Begin" },
+        { "term": "Yame", "nl": "Stop: terug naar de eindhouding", "en": "Stop: back to the end position" },
+        { "term": "Yasume", "nl": "Ontspan; afgroeten in musubi dachi", "en": "Relax; bow out in musubi dachi" }
+      ]
+    },
+    {
+      "id": "counting", "title": { "nl": "Tellen in het Japans", "en": "Counting in Japanese" },
+      "terms": [
+        { "term": "1 · Ichi", "say": "ietsj", "nl": "Eén", "en": "One", "scan": false },
+        { "term": "2 · Ni", "say": "nie", "nl": "Twee", "en": "Two", "scan": false },
+        { "term": "3 · San", "say": "san", "nl": "Drie", "en": "Three", "scan": false },
+        { "term": "4 · Shi", "say": "sjie", "nl": "Vier", "en": "Four", "scan": false },
+        { "term": "5 · Go", "say": "go", "nl": "Vijf", "en": "Five", "scan": false },
+        { "term": "6 · Roku", "say": "rok", "nl": "Zes", "en": "Six", "scan": false },
+        { "term": "7 · Shichi", "say": "sjiets", "nl": "Zeven", "en": "Seven", "scan": false },
+        { "term": "8 · Hachi", "say": "hatsj", "nl": "Acht", "en": "Eight", "scan": false },
+        { "term": "9 · Ku", "say": "koe", "nl": "Negen", "en": "Nine", "scan": false },
+        { "term": "10 · Ju", "say": "djoe", "nl": "Tien", "en": "Ten", "scan": false }
+      ]
+    },
+    {
+      "id": "commands", "title": { "nl": "Commando's en bewegen", "en": "Commands and movement" },
+      "terms": [
+        { "term": "Kamaete", "nl": "Uitvallen in de beginstand (bijvoorbeeld gedan barai kamaete)", "en": "Step out into the starting stance (e.g. gedan barai kamaete)" },
+        { "term": "Kamae", "nl": "Houding, gevechtshouding", "en": "Posture, fighting stance" },
+        { "term": "Jiyu kamae", "nl": "Vrije gevechtshouding", "en": "Free fighting stance" },
+        { "term": "Yoi dachi", "nl": "Gereedstand: voeten op schouderbreedte en iets naar buiten (hachiji dachi), vuisten voor de band", "en": "Ready stance: feet shoulder-width apart and turned slightly out (hachiji dachi), fists in front of the belt" },
+        { "term": "Mawate", "nl": "Omdraaien", "en": "Turn around" },
+        { "term": "Hantai", "nl": "Wissel van kant", "en": "Switch sides" },
+        { "term": "Mae ni", "nl": "Naar voren", "en": "Forward" },
+        { "term": "Hai", "nl": "Ja, begrepen", "en": "Yes, understood" },
+        { "term": "Chidori ashi", "nl": "Kruispas voorlangs (bij de zijwaartse trappen)", "en": "Cross-step in front (for the side kicks)" },
+        { "term": "Sabaki", "nl": "Wegdraaien, uit de lijn stappen", "en": "Turning away, stepping off the line" }
+      ]
+    },
+    {
+      "id": "zones", "title": { "nl": "Hoogtes, richtingen en heup", "en": "Levels, directions and hips" },
+      "terms": [
+        { "term": "Jodan", "nl": "Hoog: hoofd en hals", "en": "High: head and neck" },
+        { "term": "Chudan", "nl": "Midden: romp", "en": "Middle: torso" },
+        { "term": "Gedan", "nl": "Laag: onder de gordel", "en": "Low: below the belt" },
+        { "term": "Migi", "nl": "Rechts", "en": "Right" },
+        { "term": "Hidari", "nl": "Links", "en": "Left" },
+        { "term": "Yoko", "nl": "Zijwaarts", "en": "Sideways", "scan": false },
+        { "term": "Ushiro", "nl": "Achter", "en": "Back", "scan": false },
+        { "term": "Gyaku", "nl": "Tegengesteld (arm aan de kant van het achterste been)", "en": "Reverse (the arm on the side of the back leg)" },
+        { "term": "Oi", "nl": "Meegaand (arm aan de kant van het voorste been)", "en": "Lunging (the arm on the side of the front leg)", "scan": false },
+        { "term": "Shomen", "nl": "Heup recht naar voren", "en": "Hips square to the front" },
+        { "term": "Hanmi", "nl": "Heup half weggedraaid", "en": "Hips half turned away" }
+      ]
+    },
+    {
+      "id": "general", "title": { "nl": "Woordenlijst", "en": "Glossary" },
+      "terms": [
+        { "term": "Karate", "nl": "Lege hand", "en": "Empty hand", "scan": false },
+        { "term": "Karate-do", "nl": "De weg van de lege hand", "en": "The way of the empty hand", "scan": false },
+        { "term": "Karateka", "nl": "Iemand die karate beoefent", "en": "Someone who practises karate" },
+        { "term": "Shotokan", "nl": "De karatestijl van Gichin Funakoshi", "en": "The karate style of Gichin Funakoshi", "scan": false },
+        { "term": "Dojo", "nl": "Trainingsruimte", "en": "Training hall" },
+        { "term": "Sensei", "nl": "Leraar", "en": "Teacher" },
+        { "term": "Sempai", "nl": "Gevorderde leerling, assistent", "en": "Senior student, assistant" },
+        { "term": "Karategi", "nl": "Karatepak", "en": "Karate uniform" },
+        { "term": "Obi", "nl": "Band", "en": "Belt" },
+        { "term": "Kyu", "nl": "Leerlinggraad (gekleurde band), telt af naar 1e kyu", "en": "Student grade (coloured belt), counting down to 1st kyu", "scan": false },
+        { "term": "Dan", "nl": "Meestergraad (zwarte band), telt op vanaf 1e dan", "en": "Master grade (black belt), counting up from 1st dan", "scan": false },
+        { "term": "Kihon", "nl": "Basistechnieken", "en": "Basic techniques", "scan": false },
+        { "term": "Kata", "nl": "Vaste vorm: denkbeeldig gevecht", "en": "Fixed form: imaginary fight", "scan": false },
+        { "term": "Kumite", "nl": "Gevechtsoefening met een partner", "en": "Sparring with a partner", "scan": false },
+        { "term": "Ippon kumite", "nl": "Partneroefening met één aanval en één tegenaanval", "en": "Partner drill with one attack and one counter" },
+        { "term": "Bunkai", "nl": "Uitleg en toepassing van de technieken uit een kata", "en": "Explanation and application of a kata's techniques" },
+        { "term": "Waza", "nl": "Techniek(en)", "en": "Technique(s)", "scan": false },
+        { "term": "Tsuki", "nl": "Stoot", "en": "Punch", "scan": false },
+        { "term": "Uchi", "nl": "Slag", "en": "Strike", "scan": false },
+        { "term": "Uke", "nl": "Afweer; in kumite ook: de verdediger", "en": "Block; in kumite also: the defender", "scan": false },
+        { "term": "Geri", "nl": "Trap", "en": "Kick", "scan": false },
+        { "term": "Barai", "nl": "Wegvegen", "en": "Sweep away", "scan": false },
+        { "term": "Tori", "nl": "De aanvaller in kumite", "en": "The attacker in kumite" },
+        { "term": "Kiai", "nl": "Krachtkreet bij het eindpunt van een techniek", "en": "Shout at the end point of a technique" },
+        { "term": "Kime", "nl": "Bundeling van kracht in het eindpunt", "en": "Focus of power at the end point" },
+        { "term": "Hikite", "nl": "De terugtrekkende hand naar de heup", "en": "The hand pulling back to the hip" },
+        { "term": "Zanshin", "nl": "Alertheid, ook na de techniek", "en": "Alertness, also after the technique" },
+        { "term": "Go no sen", "nl": "Reageren op de aanval: eerst afweren, dan tegenaanvallen", "en": "Responding to the attack: block first, then counter" },
+        { "term": "Ibuki", "nl": "Ademhaling", "en": "Breathing" },
+        { "term": "Ki", "nl": "Levensenergie", "en": "Life energy", "scan": false },
+        { "term": "Seiken", "nl": "Vuist (de voorste knokkels)", "en": "Fist (the front knuckles)" },
+        { "term": "Nukite", "nl": "Speerhand", "en": "Spear hand" },
+        { "term": "Teisho", "nl": "Handpalm (de muis van de hand)", "en": "Palm heel", "scan": false },
+        { "term": "Tatami", "nl": "Mat", "en": "Mat" },
+        { "term": "Ryu", "nl": "School, methode", "en": "School, method", "scan": false }
+      ]
+    },
+    {
+      "id": "kata-types", "title": { "nl": "Soorten kata bij examens", "en": "Kinds of kata at exams" },
+      "terms": [
+        { "term": "Shitei kata", "nl": "Verplichte kata; de examinatoren kunnen erom vragen", "en": "Required kata; the examiners can ask for it" },
+        { "term": "Sentei kata", "nl": "Keuze uit een vaste lijst, bijvoorbeeld Bassai Dai of Kanku Dai", "en": "Choice from a set list, e.g. Bassai Dai or Kanku Dai" },
+        { "term": "Tokui kata", "nl": "Je eigen favoriete kata, vrij gekozen", "en": "Your own favourite kata, freely chosen" }
+      ]
+    },
+    {
+      "id": "history", "title": { "nl": "Funakoshi en Shotokan", "en": "Funakoshi and Shotokan" },
+      "text": [
+        { "nl": "Gichin Funakoshi (1868–1957) werd geboren in Shuri op Okinawa. Hij bracht karate begin jaren twintig naar Japan en wordt de vader van het moderne karate genoemd.", "en": "Gichin Funakoshi (1868–1957) was born in Shuri on Okinawa. He brought karate to mainland Japan in the early 1920s and is called the father of modern karate." },
+        { "nl": "‘Shoto’ was zijn dichtersnaam: het ruisen van de dennen in de wind. Zijn dojo in Tokio, eind jaren dertig, werd ‘Shotokan’ genoemd: het huis van Shoto. Zo kreeg de stijl zijn naam.", "en": "‘Shoto’ was his pen name: the sound of pine trees in the wind. His dojo in Tokyo, from the late 1930s, was called ‘Shotokan’: the house of Shoto. That is how the style got its name." },
+        { "nl": "Karate betekent ‘lege hand’: je verdedigt je zonder wapens. Vroeger heette het ook ‘Chinese hand’, omdat de oorsprong in China ligt. Op Okinawa ontstonden de scholen Shuri-te, Naha-te en Tomari-te.", "en": "Karate means ‘empty hand’: you defend yourself without weapons. It used to be called ‘Chinese hand’ too, because its roots are in China. On Okinawa the schools Shuri-te, Naha-te and Tomari-te grew up." },
+        { "nl": "Het symbool van Shotokan is de tijger, getekend door kunstenaar Hoan Kosugi voor Funakoshi's eerste boek. De tijger staat voor kracht en moed.", "en": "Shotokan's symbol is the tiger, drawn by artist Hoan Kosugi for Funakoshi's first book. The tiger stands for strength and courage." }
+      ]
+    }
+  ]
+}
