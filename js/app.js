@@ -519,7 +519,30 @@
 
   /* ---------- Router ---------- */
 
-  var lastRoute = null;
+  /* In-app history: the back arrow returns to the previous screen (with its scroll position).
+     Without a previous screen (page opened directly), it follows its own link to the parent page. */
+  var stack = [];          // [{ route, y }]
+  var restoreY = null;
+  function routeNow() { return location.hash.replace(/^#\/?/, ''); }
+  function onNavigate() {
+    var r = routeNow();
+    if (stack.length > 1 && stack[stack.length - 2].route === r) {
+      stack.pop();                                  // went back
+      restoreY = stack[stack.length - 1].y;
+    } else if (!stack.length || stack[stack.length - 1].route !== r) {
+      stack.push({ route: r, y: 0 });
+      restoreY = 0;
+    }
+    render();
+  }
+  window.addEventListener('scroll', function () {
+    if (stack.length) stack[stack.length - 1].y = window.scrollY;
+  }, { passive: true });
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a.back');
+    if (a && stack.length > 1) { e.preventDefault(); history.back(); }
+  });
+
   function render() {
     if (currentPlayer) { currentPlayer.destroy(); currentPlayer = null; }
     var parts = (location.hash.replace(/^#\/?/, '') || '').split('/').filter(Boolean).map(decodeURIComponent);
@@ -534,8 +557,7 @@
     else html = viewHome();
     app.innerHTML = html;
 
-    var route = parts.join('/');
-    if (route !== lastRoute) { window.scrollTo(0, 0); lastRoute = route; }
+    if (restoreY !== null) { window.scrollTo(0, restoreY); restoreY = null; }
 
     var slot = app.querySelector('[data-player]');
     if (slot && parts[0] === 'kata') {
@@ -562,14 +584,14 @@
     }
   }
 
-  window.addEventListener('hashchange', render);
+  window.addEventListener('hashchange', onNavigate);
 
   Promise.all(['data/kata.json', 'data/kihon.json', 'data/exams.json', 'data/theory.json'].map(loadJson)).then(function (res) {
     data.kata = res[0];
     data.kihon = res[1];
     data.exams = res[2];
     data.theory = res[3];
-    render();
+    onNavigate();
   }).catch(function (err) {
     app.innerHTML = '<div class="wrap"><p>' + esc(t('loadError')) + '</p><p class="empty">' + esc(err.message) + '</p></div>';
   });
